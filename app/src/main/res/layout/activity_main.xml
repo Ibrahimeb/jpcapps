@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tutorial.ibrahimestanga.jpcapp.view.MainActivity">
+
+    <Button
+        android:id="@+id/bt_main_act_call_services"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/call_services_main_act"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_main_act_call_next_act"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/go_to_list_activity_main_act"
+        app:layout_constraintEnd_toEndOf="@+id/bt_main_act_call_services"
+        app:layout_constraintStart_toStartOf="@+id/bt_main_act_call_services"
+        app:layout_constraintTop_toBottomOf="@+id/bt_main_act_call_services" />
+
+    <TextView
+        android:id="@+id/tv_main_act_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/response_main_act"
+        app:layout_constraintStart_toStartOf="@+id/bt_main_act_call_next_act"
+        app:layout_constraintTop_toBottomOf="@+id/bt_main_act_call_next_act"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tv_main_act_response_mod"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_main_act_response"
+        app:layout_constraintStart_toEndOf="@+id/tv_main_act_response"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/tv_main_act_reverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/reverse_main_act"
+        app:layout_constraintEnd_toEndOf="@+id/tv_main_act_response"
+        app:layout_constraintStart_toStartOf="@+id/tv_main_act_response"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_act_response" />
+
+    <TextView
+        android:id="@+id/tv_main_act_reverse_mod"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_main_act_reverse"
+        app:layout_constraintEnd_toEndOf="@+id/tv_main_act_response_mod"
+        app:layout_constraintStart_toStartOf="@+id/tv_main_act_response_mod" />
+
+    <ProgressBar
+        android:id="@+id/pb_main_act"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

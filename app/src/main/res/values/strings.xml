@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">jpcApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_list_act">add</string>
+    <string name="remove_all_entries_list_act">remove all entries</string>
+    <string name="sort_ascending_list_act">sort ascending</string>
+    <string name="number_list_list_act">Number List</string>
+    <string name="the_list_is_empty_list_act">The list is empty</string>
+    <string name="call_services_main_act">call services</string>
+    <string name="go_to_list_activity_main_act">go to list activity</string>
+    <string name="response_main_act">Response</string>
+    <string name="reverse_main_act">Reverse</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_lateral_list_act">0dp</dimen>
+    <dimen name="margin_top__button_list_act">0dp</dimen>
+    <dimen name="margin_top__text_view_title_list_act">5dp</dimen>
+    <dimen name="margin_top_recycler_viewlist_act">10dp</dimen>
+    <dimen name="margin_top__text_view_msg_list_act">10dp</dimen>
+
+
+
+
+
+</resources>
